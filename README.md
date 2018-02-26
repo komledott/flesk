@@ -8,7 +8,7 @@ This class initially sets the `dl`(s) to have a css style of `display: flex`, an
 
 There is also a built in method for formatting any elements inside the definition list, by setting class(es) or just plain css.
 
-##Example A
+## Example A
 
 Just any `<dl>` to be reformatted
 
@@ -16,7 +16,7 @@ Just any `<dl>` to be reformatted
 var dlAny = new RWformatDefinitionList();
 ```
 
-##Example B
+## Example B
 
 Just one specific `<dl>` to be formatted, and with specific style to the `<dt>` elements inside
 
@@ -28,7 +28,7 @@ dlById.setSubElmAttrs('dt',{
 });
 ```
 
-##Example C
+## Example C
 
 Any `<dl>` to be formatted as long as they belong to a defined css class. Default style to the `<dt>`+`<dd>` groups inside, and elemens getting extra css afterwards
 
