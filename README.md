@@ -6,7 +6,7 @@ Formats one or many HTML definition lists to display it's groups of `dt`- and `d
 
 This class initially sets the `dl`(s) to have a css style of `display: flex`, and dynamically wraps a `div` around the groups of defintion terms and data.
 
-There is also a built in method for formatting any elements inside the definition list, by setting class(es) og just plain css.
+There is also a built in method for formatting any elements inside the definition list, by setting class(es) or just plain css.
 
 # h2 Example A
 
