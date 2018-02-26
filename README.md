@@ -1,4 +1,4 @@
-# flesk
+# Format and Fluidify Elements of a Definition List
 
 _Created by Terje Rudi. To be used freely._
 
@@ -8,17 +8,17 @@ This class initially sets the `dl`(s) to have a css style of `display: flex`, an
 
 There is also a built in method for formatting any elements inside the definition list, by setting class(es) or just plain css.
 
-# h2 Example A
+##Example A
 
-Just any <dl> to be reformatted
+Just any `<dl>` to be reformatted
 
 ```javascript
 var dlAny = new RWformatDefinitionList();
 ```
 
-# h2 Example B
+##Example B
 
-Just one specific <dl> to be formatted, and with specific style to the <dt> elements inside
+Just one specific `<dl>` to be formatted, and with specific style to the `<dt>` elements inside
 
 ```javascript
 var dlById = new RWformatDefinitionList(document.getElementById('SomeDlsId'),'width: 11em;margin: 0 0.2em 1em 0;color: #ff6633;');
@@ -28,7 +28,7 @@ dlById.setSubElmAttrs('dt',{
 });
 ```
 
-# h2 Example C
+##Example C
 
 Any `<dl>` to be formatted as long as they belong to a defined css class. Default style to the `<dt>`+`<dd>` groups inside, and elemens getting extra css afterwards
 
